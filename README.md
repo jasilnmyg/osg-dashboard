@@ -1,19 +1,14 @@
-# :earth_americas: GDP dashboard template
+**OSG Dashboard**
+**Overview**
+The OSG Dashboard is an interactive Streamlit-based application designed to streamline the processing, analysis, and reporting of sales and product data. It integrates multiple reports into one user-friendly interface, allowing users to upload Excel files, generate insightful summaries, and export well-formatted Excel reports with enhanced data visualization.
 
-A simple Streamlit app showing the GDP of different countries in the world.
+**Features**
+Report 1: Sales Summary with RBM/BDM
+Aggregates store sales data, incorporating RBM (Regional Business Manager) and BDM (Business Development Manager) mappings for comprehensive sales performance analysis.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
+Report 2: Store Summary Report
+Provides detailed summaries of sales performance per store, highlighting key metrics with styled Excel outputs.
 
-### How to run it on your own machine
+Report 3: OSG Data Mapping
+Matches SKU and product data between OSG and Product files, identifies warranty categories, models, brands, and filters by invoice numbers, exporting a detailed styled Excel report with missing data highlights.
 
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
